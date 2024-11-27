@@ -1,3 +1,4 @@
+<!--
                                  Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
@@ -134,7 +135,35 @@
       Notwithstanding the above, nothing herein shall supersede or modify
       the terms of any separate license agreement you may have executed
       with Licensor regarding such Contributions.
-
+-->
+<shape h="50" w="100" aspect="variable" strokewidth="inherit">
+  <background>
+    <fillstroke />
+    <path>
+      <move x="0" y="0" />
+      <line x="100" y="0" />
+      <line x="80" y="20" />
+      <line x="100" y="40" />
+      <line x="0" y="40" />
+      <line x="20" y="20" />
+      <close />
+    </path>
+  </background>
+  <foreground>
+    <fillstroke />
+    <path>
+      <move x="0" y="0" />
+      <line x="100" y="0" />
+      <line x="80" y="20" />
+      <line x="100" y="40" />
+      <line x="0" y="40" />
+      <line x="20" y="20" />
+      <close />
+    </path>
+    <stroke />
+  </foreground>
+</shape>
+<!--
    6. Trademarks. This License does not grant permission to use the trade
       names, trademarks, service marks, or product names of the Licensor,
       except as required for reasonable and customary use in describing the
@@ -199,3 +228,5 @@
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
+
+-->
